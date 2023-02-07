@@ -1,0 +1,19 @@
+let arr=[1,2,3,6,8];
+let even=0;
+let odd=0;
+let count=0;
+let count2=0;
+for(let i=0;i<=4;i++){
+  if(arr[i]%2==0){
+count++;
+even=even+arr[i];
+    
+  }
+  if(arr[i]%2!=0){
+count2++;
+odd=odd+arr[i];
+    
+  }
+}
+console.log("even"+ " "+count);
+console.log("odd"+ " "+count);
